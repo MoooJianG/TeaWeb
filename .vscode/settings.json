@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "src/main/java/com/example/teamall/service",
+        "src/main/java/com/example/teamall/repository",
+        "src/main/java/com/example/teamall/model",
+        "src/main/java/com/example/teamall/controller",
+        "TeaMall/src/main/java/com/example/teamall",
+        "TeaMall"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
