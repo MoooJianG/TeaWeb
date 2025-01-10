@@ -61,18 +61,9 @@
     <!-- 地址管理对话框 -->
     <el-dialog
       v-model="addressDialogVisible"
-      title="管理收货地址"
+      title="选择收货地址"
       width="800px"
       destroy-on-close
-    >
-      <AddressManagement @select-address="handleSelectAddress" />
-    </el-dialog>
-
-    <!-- 地址选择对话框 -->
-    <el-dialog
-      title="选择收货地址"
-      v-model="addressDialogVisible"
-      width="50%"
     >
       <div class="address-list">
         <el-empty v-if="addresses.length === 0" description="暂无收货地址">
